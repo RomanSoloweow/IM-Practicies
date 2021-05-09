@@ -2,7 +2,3 @@ language: java
 jdk :
 - openjdk15
 dist: bionic
-addons:
-  apt:
-    packages:
-      - ant
