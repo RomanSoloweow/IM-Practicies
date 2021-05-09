@@ -1,5 +1,8 @@
 language: java
 jdk :
 - openjdk15
-install: true
-dist : xenial
+dist: bionic
+addons:
+  apt:
+    packages:
+      - ant
