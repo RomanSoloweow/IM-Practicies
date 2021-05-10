@@ -2,3 +2,10 @@ language: java
 jdk :
 - openjdk15
 dist: bionic
+addons:
+  sonarcloud:
+    organization: "gmike"
+    token: $SONAR_TOKEN
+    
+script:
+    - sonar-scanner
